@@ -56,16 +56,17 @@ article {
 
 
 footer {
-   display: flex;
-   width: 110%;
+    width: 100vw;             
+    margin-left: calc(50% - 50vw); 
+    overflow: hidden;          
 }
 
-footer p {
-   display: flex;
-   width: 110%;
-   margin-right: 100px;
+footer img {
+    width: 100vw;            
+    height: auto;             
+    object-fit: cover;        
+    display: block;           
 }
-
 
 h2 {
      text-align: center;
