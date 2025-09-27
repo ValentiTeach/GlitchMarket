@@ -47,29 +47,26 @@ p {
     text-align: center;
 }
 
-.info {
-   
-}
 
 article {
    display: flex;
    justify-content: center;
 }
 
-.article-but {
-    
-}
+
 
 footer {
-   
-}
-
-footer a {
-    
+   display: flex;
+   width: 110%;
 }
 
 footer p {
+   display: flex;
+   width: 110%;
+   margin-right: 100px;
 }
+
+
 h2 {
      text-align: center;
 }
